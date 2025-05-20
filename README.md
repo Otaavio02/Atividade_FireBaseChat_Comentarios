@@ -12,4 +12,9 @@
 - Encapsular lógicas como `noBorder` em funções auxiliares para clareza
 - Remover imports não utilizados (ex: `Text`)]
 
+# Refatoração para escalabilidade:
+- Criar funções auxiliares para `renderItem` e `extractKey`
+- Utilizar campos únicos do objeto (`id`, `uid`) como chave no `FlatList`
+- Garantir valores padrão nas props para evitar erros em listas vazias
+
   
