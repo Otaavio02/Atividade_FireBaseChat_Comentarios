@@ -9,7 +9,7 @@
 - Estilização com NativeWind (`className`).
 - Navegação desacoplada com `useRouter` do Expo.
 
-### 🛠️ Sugestões de melhoria:
+###  Sugestões de melhoria:
 - Evitar o uso de `Math.random()` como `keyExtractor`; isso causa re-renderizações desnecessárias.
 - Adicionar verificação de tipo (PropTypes ou TypeScript).
 - Encapsular lógicas como `noBorder` em funções auxiliares para clareza.
@@ -31,7 +31,7 @@
 - Uso de `expo-image` para melhor desempenho no carregamento de imagens.
 - Navegação intuitiva com ícones de chamada e vídeo bem posicionados.
 
-### 🛠 Sugestões de melhoria:
+### Sugestões de melhoria:
 - Adicionar `accessibilityLabel` e `accessible` nos botões e ícones para acessibilidade.
 - Garantir fallback para props (`user.profileUrl`, `user.username`) para evitar erros com dados indefinidos.
 - Considerar `widthPercentageToDP (wp)` para garantir melhor adaptação em diferentes larguras de tela.
