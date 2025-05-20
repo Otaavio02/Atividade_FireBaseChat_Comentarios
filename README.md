@@ -1,4 +1,4 @@
-# - chatList.js
+# - ChatList.js
 ## Boas práticas:
 - Uso de componente funcional com sintaxe moderna
 - Componentização com `ChatItem` para melhor separação de responsabilidades
@@ -30,7 +30,7 @@
 - Acessibilidade: adicionar propriedades como accessibilityLabel e accessible nos botões (TouchableOpacity) e ícones.
 - Validação de props: garantir que user tenha fallback seguro (ex: imagem padrão caso profileUrl seja undefined).
 - Responsividade horizontal: considerar também widthPercentageToDP (wp) para garantir que ícones e textos se ajustem melhor em telas muito estreitas ou largas.
-- 
+  
 ## Refatoração para escalabilidade
 - Extrair os componentes LeftHeaderContent e RightHeaderContent em arquivos separados para reutilização ou testes.
 - Adicionar PropTypes ou migrar para TypeScript para garantir que as props user e router estejam corretamente tipadas.
