@@ -1,4 +1,4 @@
-## - chatList.js
+### - chatList.js
 # Boas práticas:
 - Uso de componente funcional com sintaxe moderna
 - Componentização com `ChatItem` para melhor separação de responsabilidades
