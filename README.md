@@ -36,6 +36,24 @@
 - Adicionar PropTypes ou migrar para TypeScript para garantir que as props user e router estejam corretamente tipadas.
 - Tornar o componente mais genérico para ser reutilizado em outros contextos (ex: header de grupo, header de contato).
 
+# - CustomMenuItems
+
+## Boas práticas identificadas
+- Componente reutilizável e modular, bem adequado para menus dinâmicos.
+- Uso de react-native-popup-menu para criar um sistema de menu contextual moderno.
+- Estilização limpa e responsiva com react-native-responsive-screen e NativeWind (className).
+- Separação clara entre lógica (action) e interface (text, icon).
+
+## Sugestões de melhoria
+- Adicionar accessibilityLabel e accessible={true} ao MenuOption para acessibilidade.
+- Definir um fallback visual para o icon, caso não seja passado.
+- Pode-se adicionar um efeito visual de "pressionado" (ex: TouchableHighlight ou ripple) para feedback tátil ao usuário.
+
+## Refatoração para escalabilidade
+- Tipar as props com PropTypes ou migrar o componente para TypeScript para garantir maior robustez.
+- Isolar estilos em um arquivo separado caso cresçam ou fiquem mais complexos.
+- Permitir personalização de estilos via props (textStyle, containerStyle, etc.).
+
   
 
   
